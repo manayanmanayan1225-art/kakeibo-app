@@ -1,0 +1,29 @@
+# =========================
+# Eclipse / Java / Tomcat
+# =========================
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/target/
+/backend/bin/
+**/*.log
+
+# =========================
+# Node / React / Vite
+# =========================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+*.tmp
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
