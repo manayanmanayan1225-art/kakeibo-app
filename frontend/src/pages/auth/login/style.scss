@@ -1,0 +1,31 @@
+.login {
+  min-height: 100vh;
+  background: linear-gradient(#0b004f, #05002a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  &__form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  input {
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+    padding: 0 8px;
+  }
+
+  button {
+    margin-top: 16px;
+    height: 40px;
+    border-radius: 8px;
+    background: #6c6c6c;
+    color: white;
+  }
+}

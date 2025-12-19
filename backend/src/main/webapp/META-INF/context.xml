@@ -1,0 +1,14 @@
+<Context>
+  <Resource
+    name="jdbc/kakeibo"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="org.postgresql.Driver"
+    url="jdbc:postgresql://localhost:5432/kakeibo"
+    username="postgres"
+    password="Manaya_1225"
+    maxTotal="20"
+    maxIdle="5"
+    maxWaitMillis="10000"
+  />
+</Context>
