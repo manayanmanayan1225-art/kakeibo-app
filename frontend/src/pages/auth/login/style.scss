@@ -1,3 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .login {
   min-height: 100vh;
   background: linear-gradient(#0b004f, #05002a);

@@ -12,11 +12,16 @@
     margin-bottom: 24px;
   }
 
+  &__icon-box {
+    margin-top: 24px;
+  }
+
   &__form {
     width: 320px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 32px;
+    margin-top: 72px;
   }
 
   button {
