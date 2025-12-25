@@ -52,7 +52,7 @@ public class RegisterUser extends HttpServlet {
             }else {
     	        response.getWriter().write(
     		            "{"
-    		            + "\"returnStatus\":0,"
+    		            + "\"returnStatus\":0"
     		            + "}"
     		        );
             }

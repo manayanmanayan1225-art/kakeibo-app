@@ -64,7 +64,7 @@ public class Login extends HttpServlet {
 	            "{"
 	            + "\"returnStatus\":0,"
 	            + "\"userId\":\"" + data.getUserId() + "\","
-	            + "\"name\":\"" + data.getUserName() + "\","
+	            + "\"userName\":\"" + data.getUserName() + "\","
 	            + "\"token\":\"" + token + "\""
 	            + "}"
 	        );

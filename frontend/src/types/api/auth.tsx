@@ -1,5 +1,6 @@
 import type { ReturnStatus } from "./returnStatus"
 
+
 export interface LoginRequest {
   email: string
   pass: string
@@ -7,4 +8,6 @@ export interface LoginRequest {
 
 export interface LoginResponse extends ReturnStatus {
   userId?: string
+  userName?: string
+  token?: string
 }
